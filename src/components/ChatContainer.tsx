@@ -23,8 +23,8 @@ export const ChatContainer = () => {
     reload,
     isLoading,
   } = useChat({
-    id: "gemini-pro",
-    api: `/api/gemini-pro`,
+    id: "gemini-2.0-flash",
+    api: `/api/gemini-2.0-flash`,
     body: {
       general_settings: generalSettings,
       safety_settings: safetySettings,

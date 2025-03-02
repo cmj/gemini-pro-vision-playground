@@ -62,9 +62,9 @@ export const ControlContainer = () => {
           <DropdownMenuContent className={`w-full`}>
             <DropdownMenuItem
               className={`w-full`}
-              onClick={() => handleModelChange("gemini-pro")}
+              onClick={() => handleModelChange("gemini-2.0-flash")}
             >
-              gemini-pro
+              gemini-2.0-flash
             </DropdownMenuItem>
             <DropdownMenuItem
               onClick={() => handleModelChange("gemini-pro-vision")}

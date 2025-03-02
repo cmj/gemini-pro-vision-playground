@@ -14,7 +14,7 @@ export default function Home() {
         <ControlContainer />
       </div>
       <div className="md:col-span-9">
-        {selectedModel === "gemini-pro" ? (
+        {selectedModel === "gemini-2.0-flash" ? (
           <ChatContainer />
         ) : (
           <VisionContainer />
